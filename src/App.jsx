@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { getInstrumentos } from "./services/api";
 import InstrumentoGrid from "./components/InstrumentoGrid";
 import Carrito from "./components/Carrito";
-import "./styles/app.css";
+import "./styles/App.css";
 
 const TIPOS = ["Todos", "Cuerda", "Viento", "Percusión", "Teclado"];
 
